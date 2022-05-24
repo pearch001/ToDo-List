@@ -1,0 +1,13 @@
+{
+  "name": "qwerty-jobs-lizpa",
+  "env": {
+    "JDBC_URL": {"required":  false},
+    "JDBC_USER": {"required":  false},
+    "JDBC_PASS": {"required":  false}
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/maven"
+    }
+  ]
+}
